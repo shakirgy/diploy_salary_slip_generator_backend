@@ -15,5 +15,5 @@ app.use("/",Router,(req,res)=>{
 })
 
 
-const port=process.env.port || 4000
+const port=process.env.port || 9001
 app.listen(port,()=>console.log(`server is running ${port}`));
